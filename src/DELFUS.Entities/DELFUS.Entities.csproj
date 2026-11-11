@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DELFUS.Lib\DELFUS.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SmartDocs.Entities">
+      <HintPath>DLL\SmartDocs.Entities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

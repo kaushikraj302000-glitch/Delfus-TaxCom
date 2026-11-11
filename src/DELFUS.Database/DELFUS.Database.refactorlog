@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="38a1795c-2ff4-4822-82dd-0d9ce749fbdd" ChangeDateTime="06/08/2020 12:51:50">
+    <Property Name="ElementName" Value="[dbo].[LienMailGroups].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LienMailGroups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LienDataId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="acd94db4-d59c-4840-b85b-bc7ad70c5b7e" ChangeDateTime="06/10/2020 07:19:47">
+    <Property Name="ElementName" Value="[dbo].[SpecialRequirements].[TemplateCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SpecialRequirements]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TemplateId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cd98de68-af1a-4cca-ab93-9878db78ef45" ChangeDateTime="06/10/2020 13:27:55">
+    <Property Name="ElementName" Value="[dbo].[ClientConsistencies].[SearchKey]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClientConsistencies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CompanyName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f1510759-7634-4be9-9e7d-b042af59575d" ChangeDateTime="06/10/2020 13:28:15">
+    <Property Name="ElementName" Value="[dbo].[ClientConsistencies].[CompanyName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClientConsistencies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FieldName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7b0f2f68-d57e-42d3-b4b2-00e795a0fa79" ChangeDateTime="06/10/2020 13:29:03">
+    <Property Name="ElementName" Value="[dbo].[ClientConsistencies].[LetterCasing]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClientConsistencies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SearchText" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e8e5daa3-ed3d-480c-b99c-3ea4f9f0bffb" ChangeDateTime="06/10/2020 13:29:19">
+    <Property Name="ElementName" Value="[dbo].[ClientConsistencies].[SearchText]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClientConsistencies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ReplaceText" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6aa14703-91fe-4410-9f7b-c44973b16a05" ChangeDateTime="06/19/2020 17:51:40">
+    <Property Name="ElementName" Value="[dbo].[ClientConsistencies].[TemplateId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClientConsistencies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="76a563ab-0e49-4a7f-80f7-1465047634d8" ChangeDateTime="06/22/2020 12:39:39">
+    <Property Name="ElementName" Value="[dbo].[SpecialRequirements].[TemplateId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SpecialRequirements]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c4641607-be6c-44e0-9e05-ebfa998f33c3" ChangeDateTime="07/17/2020 05:15:41">
+    <Property Name="ElementName" Value="[dbo].[AMClients].[ClientName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AMClients]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e5dd7fdc-0438-47e1-b751-70140179cb2c" ChangeDateTime="07/17/2020 05:52:11">
+    <Property Name="ElementName" Value="[dbo].[AMClients].[CustomerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AMClients]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c4613863-b700-4fb5-b1c5-3b0c6b085e4a" ChangeDateTime="04/16/2021 10:33:57">
+    <Property Name="ElementName" Value="[dls].[EDeliveryStatusData].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dls].[EDeliveryStatusData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EmailId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5632a22e-d5a7-45dd-bfd2-ae4df0e08e73" ChangeDateTime="04/16/2021 10:34:12">
+    <Property Name="ElementName" Value="[dls].[EDeliveryStatusData].[EmailId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dls].[EDeliveryStatusData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EmailUniqueId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="209ffdd1-5077-41d9-a96f-8dc4a47d3743" ChangeDateTime="04/16/2021 10:34:51">
+    <Property Name="ElementName" Value="[dls].[EDeliveryStatusData].[Lien]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dls].[EDeliveryStatusData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LienDataId" />
+  </Operation>
+</Operations>

@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.5" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="System.IO.FileSystem" Version="4.3.0" />
+    <PackageReference Include="System.IO.FileSystem.Primitives" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.Handles" Version="4.3.0" />
+    <PackageReference Include="System.Text.Encoding.Extensions" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DELFUS.Entities\DELFUS.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SmartDocs.Entities">
+      <HintPath>..\DELFUS.Entities\DLL\SmartDocs.Entities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\AcknowledgementTemplate.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

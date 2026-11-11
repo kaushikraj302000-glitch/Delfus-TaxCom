@@ -1,0 +1,1 @@
+<<[LoanId.Substring(3).PadLeft(LoanId.Length, '*')]>>

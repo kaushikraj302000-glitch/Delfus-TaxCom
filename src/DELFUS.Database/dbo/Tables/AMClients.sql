@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[AMClients]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [CustId] VARCHAR(255) NULL, 
+    [ClientCode] VARCHAR(255) NULL
+)
